@@ -1,0 +1,26 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fujusong/webpack-starter.git"
+  },
+  "keywords": [
+    "webpack",
+    "starter"
+  ],
+  "author": "sofu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fujusong/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/fujusong/webpack-starter#readme",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  }
+}
