@@ -1,0 +1,1 @@
+module.exports={ data:'Hello,World!', event:'APP Event'};
