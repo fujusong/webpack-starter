@@ -1,0 +1,30 @@
+{
+  "name": "demo5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && set NODE_ENV=production && webpack", 
+    "dev": "set NODE_ENV=development && node dev-server.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fujusong/webpack-starter.git"
+  },
+  "keywords": [
+    "webpack",
+    "starter"
+  ],
+  "author": "sofu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fujusong/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/fujusong/webpack-starter#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
